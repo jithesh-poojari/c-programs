@@ -4,6 +4,7 @@
 int main()
 {
   int i, j, n = 5;
+  char ch = '*';
 
   // *  *  *  *  *
   // *  *  *  *  *
@@ -14,7 +15,7 @@ int main()
   {
     for (j = 0; j < n; j++)
     {
-      printf("*  ");
+      printf("%c  ", ch);
     }
     printf("\n");
   }
@@ -32,7 +33,7 @@ int main()
     {
       if (i == 0 || i == n - 1 || j == 0 || j == n - 1)
       {
-        printf("*  ");
+        printf("%c  ", ch);
       }
       else
       {
@@ -53,7 +54,7 @@ int main()
   {
     for (j = 0; j < i + 1; j++)
     {
-      printf("*  ");
+      printf("%c  ", ch);
     }
     printf("\n");
   }
@@ -71,7 +72,7 @@ int main()
     {
       if (i == n - 1 || j == 0 || j == i)
       {
-        printf("*  ");
+        printf("%c  ", ch);
       }
       else
       {
@@ -92,7 +93,7 @@ int main()
   {
     for (j = n; j > i; j--)
     {
-      printf("*  ");
+      printf("%c  ", ch);
     }
     printf("\n");
   }
@@ -110,7 +111,7 @@ int main()
     {
       if (i == 0 || j == n || j == i + 1)
       {
-        printf("*  ");
+        printf("%c  ", ch);
       }
       else
       {
@@ -135,7 +136,7 @@ int main()
     }
     for (j = 0; j < i + 1; j++)
     {
-      printf("*  ");
+      printf("%c  ", ch);
     }
     printf("\n");
   }
@@ -157,7 +158,7 @@ int main()
     {
       if (i == n - 1 || j == 0 || j == i)
       {
-        printf("*  ");
+        printf("%c  ", ch);
       }
       else
       {
@@ -182,7 +183,7 @@ int main()
     }
     for (j = n; j > i; j--)
     {
-      printf("*  ");
+      printf("%c  ", ch);
     }
     printf("\n");
   }
@@ -203,7 +204,7 @@ int main()
     {
       if (i == 0 || j == n || j == i + 1)
       {
-        printf("*  ");
+        printf("%c  ", ch);
       }
       else
       {
@@ -227,7 +228,7 @@ int main()
     }
     for (j = 0; j < i + 1; j++)
     {
-      printf("* ");
+      printf("%c ", ch);
     }
     printf("\n");
   }
@@ -249,7 +250,7 @@ int main()
     {
       if (i == n - 1 || j == 0 || j == i)
       {
-        printf("* ");
+        printf("%c ", ch);
       }
       else
       {
@@ -274,7 +275,7 @@ int main()
     }
     for (j = n; j > i; j--)
     {
-      printf("* ");
+      printf("%c ", ch);
     }
     printf("\n");
   }
@@ -296,7 +297,7 @@ int main()
     {
       if (i == 0 || j == n || j == i + 1)
       {
-        printf("* ");
+        printf("%c ", ch);
       }
       else
       {
@@ -325,7 +326,7 @@ int main()
     }
     for (j = 0; j < i + 1; j++)
     {
-      printf("* ");
+      printf("%c ", ch);
     }
     printf("\n");
   }
@@ -337,7 +338,7 @@ int main()
     }
     for (j = n - 1; j > i; j--)
     {
-      printf("* ");
+      printf("%c ", ch);
     }
     printf("\n");
   }
@@ -363,7 +364,7 @@ int main()
     {
       if (j == 0 || j == i)
       {
-        printf("* ");
+        printf("%c ", ch);
       }
       else
       {
@@ -382,7 +383,7 @@ int main()
     {
       if (j == n - 1 || j == i + 1)
       {
-        printf("* ");
+        printf("%c ", ch);
       }
       else
       {
